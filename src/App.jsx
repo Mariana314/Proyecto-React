@@ -1,10 +1,12 @@
-import { Header } from "./Layouts/Header/Header";
+
+import { Home } from "./Pages/Home/Home";
+
 export const App = () => {
   return (
  <>
-  <Header />
-
-  <main></main>
+  
+    <Home />
+  
   <footer></footer>
  </>
   )
